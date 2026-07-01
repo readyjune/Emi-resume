@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(npm run:*)",
+      "Bash(sips -s format jpeg om_1.HEIC --out om_1.jpg)",
+      "Bash(mv \"Screenshot 2026-03-19 at 8.38.42 PM.png\" om_1.png)",
+      "Bash(mv \"Screenshot 2026-03-19 at 8.39.58 PM.png\" om_2.png)",
+      "Bash(mv \"Screenshot 2026-03-19 at 8.41.01 PM.png\" om_3.png)",
+      "Bash(mv \"Screenshot 2026-03-19 at 8.41.21 PM.png\" om_4.png)",
+      "Bash(mv \"Screenshot 2026-03-19 at 8.42.37 PM.png\" om_5.png)",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

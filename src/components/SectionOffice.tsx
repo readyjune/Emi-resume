@@ -6,15 +6,13 @@ import om2 from '../assets/office_management/om_2.png';
 import om3 from '../assets/office_management/om_3.png';
 import om4 from '../assets/office_management/om_4.png';
 import om5 from '../assets/office_management/om_5.png';
-import om6 from '../assets/office_management/om_6.png';
 
 const officeImages = [
   { src: om1, alt: 'Office management 1' },
   { src: om2, alt: 'Office management 2' },
   { src: om3, alt: 'Office management 3' },
   { src: om4, alt: 'Office management 4' },
-  { src: om5, alt: 'Office management 5' },
-  { src: om6, alt: 'Office management 6' },
+  { src: om5, alt: 'Office management 5' }
 ];
 
 export default function SectionOffice() {
@@ -29,7 +27,7 @@ export default function SectionOffice() {
         </svg>
         <h2>Office Management</h2>
       </div>
-      <p className="section-sub">Andep &amp; Barton Consultancy</p>
+      <p className="section-sub">Andep Investment Consultancy</p>
 
       <Gallery images={officeImages} />
 

@@ -29,7 +29,7 @@ export default function SectionCommunity() {
         </svg>
         <h2>Community Leadership</h2>
       </div>
-      <p className="section-sub">WACCH - West Australia Content Creator Hub</p>
+      <p className="section-sub">WACCH - West Australian Content Creator Hub</p>
 
       <Gallery images={communityImages} />
 
